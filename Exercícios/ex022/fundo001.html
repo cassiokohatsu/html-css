@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem de Fundo</title>
+</head>
+<style>
+    body {
+        background-image: url(imagens/wallpaper001.jpg);
+    }
+
+    div.quadrado {
+        border: 2px solid black;
+        display: inline-block;
+        width: 300px;
+        height: 300px;
+
+    }
+
+    div#primeiro {
+        background-color: skyblue;
+    }
+
+    div#segundo {
+        background-image: linear-gradient(yellow, red);
+    }
+
+    div#terceiro {
+        background-image: url(imagens/pattern001.png);
+    }
+
+
+</style>
+<body>
+    <div class="quadrado" id="primeiro"></div>
+    <div class="quadrado" id="segundo"></div>
+    <div class="quadrado" id="terceiro"></div>
+</body>
+</html>
